@@ -1,3 +1,4 @@
+![coomit](https://github.com/EunhoMoon/daily-commit-bot/assets/87683930/35b3b2e5-8937-44c5-bf69-a9266379dc64)
 # How to get started
 
 1. **Generate <u>Access token</u>**
@@ -10,4 +11,4 @@
 3. **Check your Workflows schedule in <u>bot.yml</u>**
    - This is based on UTC, so modify as needed.
 
-![coomit](https://github.com/EunhoMoon/daily-commit-bot/assets/87683930/35b3b2e5-8937-44c5-bf69-a9266379dc64)
+
