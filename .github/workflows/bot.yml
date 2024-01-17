@@ -2,7 +2,7 @@ name: Daily Commit Bot
 
 on:
   schedule:
-    - cron: "0 13 * * *"
+    - cron: "* * * * *"
 
 jobs:
   update_date_and_commit:
