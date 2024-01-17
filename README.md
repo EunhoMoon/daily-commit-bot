@@ -9,3 +9,5 @@
    - Add New repository secrets for _ACCESS_TOKEN_, _USER_NAME_ and _USER_EMAIL_
 3. **Check your Workflows schedule in <u>bot.yml</u>**
    - This is based on UTC, so modify as needed.
+
+![coomit](https://github.com/EunhoMoon/daily-commit-bot/assets/87683930/35b3b2e5-8937-44c5-bf69-a9266379dc64)
