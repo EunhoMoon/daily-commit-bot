@@ -1,0 +1,30 @@
+name: Daily Commit Bot
+
+on:
+  # schedule:
+  #   - cron: "0 13 * * *"
+  push:
+    branches:
+      - main
+
+jobs:
+  update_date_and_commit:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v2
+        with:
+          token: ${{ secrets.ACCESS_TOKEN }}
+
+      - name: Update Date in commit.md
+        run: |
+          echo "- [x] $(date +%Y-%m-%d) commit completed 👌" > COMMIT.md
+
+      - name: Commit and Push
+        run: |
+          git config --global user.name '${{ secrets.USER_NAME }}'
+          git config --global user.email '${{ secrets.USER_EMAIL }}'
+          git add COMMIT.md
+          git commit -m "Update date in commit.md"
+          git push
