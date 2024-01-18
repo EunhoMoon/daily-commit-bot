@@ -1,5 +1,7 @@
 # Daily Commit Bot
-![coomit](https://github.com/EunhoMoon/daily-commit-bot/assets/87683930/35b3b2e5-8937-44c5-bf69-a9266379dc64)
+<p style="text-align: center;">
+   <img src="https://github.com/EunhoMoon/daily-commit-bot/assets/87683930/35b3b2e5-8937-44c5-bf69-a9266379dc64"/>
+</p>
 ## How to get started
 
 1. **Generate <u>Access token</u>**
