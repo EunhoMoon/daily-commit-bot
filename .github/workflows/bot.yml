@@ -16,7 +16,7 @@ jobs:
 
       - name: Update Date in commit.md
         run: |
-          echo "- [x] $(date +%Y-%m-%d) commit completed 👌" > COMMIT.md
+          echo "- [x] $(date +%Y-%m-%d) commit completed 👌" >> COMMIT.md
 
       - name: Commit and Push
         run: |
