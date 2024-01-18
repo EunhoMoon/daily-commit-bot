@@ -3,9 +3,6 @@ name: Daily Commit Bot
 on:
   # schedule:
   #   - cron: "0 14 * * *"
-  push:
-    branches: 
-      - main
 
 jobs:
   update_date_and_commit:
