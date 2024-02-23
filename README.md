@@ -3,6 +3,8 @@
    <img src="https://github.com/EunhoMoon/daily-commit-bot/assets/87683930/35b3b2e5-8937-44c5-bf69-a9266379dc64"/>
 </p>
 
+Help you avoid missing daily commits. I hope it helps with consistent motivation rather than cheating!
+
 ## How to get started
 
 1. **Generate <u>Access token</u>**
