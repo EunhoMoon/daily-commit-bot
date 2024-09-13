@@ -27,7 +27,7 @@ jobs:
         run: |
           YEAR=$(date +%Y)
           MONTH=$(date +%m)
-          FILE="$GITHUB_WORKSPACE/${YEAR}/${MONTH}.md
+          FILE="$GITHUB_WORKSPACE/${YEAR}/${MONTH}.md"
           echo "File: ${FILE}"
           echo "- [x] $(date +%Y-%m-%d) commit completed 👌" >> ${FILE}
 
