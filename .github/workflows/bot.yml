@@ -1,6 +1,9 @@
 name: Daily Commit Bot
 
 on:
+  push:
+    branches:
+      - main
   schedule:
     - cron: "0 14 * * *"
 
@@ -17,13 +20,15 @@ jobs:
       - name: Create Year Directory if Needed
         run: |
           YEAR=$(date +%Y)
+          echo "Creating directory for year ${YEAR}"
           mkdir -p ${YEAR}
 
       - name: Update Date in Monthly File
         run: |
           YEAR=$(date +%Y)
           MONTH=$(date +%m)
-          FILE="$GITHUB_WORKSPACE/${YEAR}/${MONTH}.md"
+          FILE="$GITHUB_WORKSPACE/${YEAR}/${MONTH}.md
+          echo "File: ${FILE}"
           echo "- [x] $(date +%Y-%m-%d) commit completed 👌" >> ${FILE}
 
       - name: Commit and Push
