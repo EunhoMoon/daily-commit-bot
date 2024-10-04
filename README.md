@@ -4,6 +4,7 @@
 </p>
 
 Help you avoid missing daily commits. I hope it helps with consistent motivation rather than cheating!
+
 (Come to think of it, even after I’m gone, this friend will keep planting grass... Hmm... this feels a bit dystopian, doesn’t it?)
 
 ## How to get started
